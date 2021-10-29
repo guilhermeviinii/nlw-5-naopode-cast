@@ -1,0 +1,27 @@
+{
+  "name": "nlw-5-naopode-cast",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server server.json -w -d 750 -p 3333"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "date-fns": "^2.25.0",
+    "next": "12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.1",
+    "json-server": "^0.17.0",
+    "sass": "^1.43.4",
+    "typescript": "^4.4.4"
+  }
+}
